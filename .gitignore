@@ -1,0 +1,16 @@
+# 密钥红线：环境文件只存 host/user（非密钥），但也不进仓库
+environments.json
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# PyInstaller
+build/
+dist/
+*.spec
+
+# Office 临时文件
+~$*.xlsx

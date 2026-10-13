@@ -1,0 +1,7 @@
+# 运行 + 打包
+oracledb>=2.0        # thin 模式免 Oracle Client（要求 Oracle DB 12.1+）
+openpyxl>=3.1        # 读 .xlsx
+
+# 开发
+pytest>=8.0
+pyinstaller>=6.0
